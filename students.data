@@ -1,55 +1,23 @@
 [
-    {
-        "studentID": "000001",
-        "fullname": "test",
-        "lastname": "za",
-        "username": "test.za@university.com",
-        "password": "Ksssss123",
-        "subjects": [
-            {
-                "name": "Subject-455",
-                "mark": 60,
-                "grade": "P"
-            },
-            {
-                "name": "Subject-456",
-                "mark": 88,
-                "grade": "HD"
-            },
-            {
-                "name": "Subject-457",
-                "mark": 66,
-                "grade": "C"
-            },
-            {
-                "name": "Subject-458",
-                "mark": 71,
-                "grade": "C"
-            }
-        ]
-    },
-    {
-        "studentID": "000002",
-        "fullname": "Aaa",
-        "lastname": "Bbb",
-        "username": "Aaa.Bbb@university.com",
-        "password": "Abcdef123",
-        "subjects": []
-    },
-    {
-        "studentID": "000003",
-        "fullname": "Ccc",
-        "lastname": "Dcc",
-        "username": "Ccc.Dcc@university.com",
-        "password": "Abcabc789",
-        "subjects": []
-    },
-    {
-        "studentID": "000004",
-        "fullname": "Eee",
-        "lastname": "Fff",
-        "username": "Eee.Fff@university.com",
-        "password": "EeeFfff456",
-        "subjects": []
-    }
+  {
+    "studentID": "820736",
+    "fullname": "John",
+    "lastname": "Smith",
+    "username": "John.Smith@university.com",
+    "password": "Helloworld123",
+    "subjects": [
+      {
+        "subjectID": "836",
+        "mark": "54"
+      },
+      {
+        "subjectID": "848",
+        "mark": "98"
+      },
+      {
+        "subjectID": "025",
+        "mark": "87"
+      }
+    ]
+  }
 ]

@@ -13,8 +13,6 @@ It includes:
 - **Student information management**
 - A **simple GUI front-end** for common operations
 
----
-
 ## Features
 
 ### User Roles
@@ -56,8 +54,6 @@ It includes:
   - Student information operations  
 - GUI actions are connected to the same underlying logic used in the menu system
 
----
-
 ## Project Structure
 
 ```text
@@ -79,12 +75,16 @@ StudentManagementSystem_python/
 ```
 
 ## Getting Started
-### 1. Requirements
-Python 3.8+ (any recent 3.x version should work)
+
+### 1. Requirements  
+Python **3.8+**
 
 ### 2. Clone the Repository
+
+```bash
 git clone https://github.com/Jasmine709/StudentManagementSystem_python.git
 cd StudentManagementSystem_python
+```
 
 ### 3. Run (Menu / Console Version)
 python main.py

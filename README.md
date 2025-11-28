@@ -133,7 +133,3 @@ Implemented complete workflows for both user roles:
 - Ensured the GUI is consistent with the menu logic, so the system behaves the same in both modes.
 This work provided the core user experience of the system (how users enter, navigate and manage data) and the foundation for other team members to extend features like course/subject management.
 
-## License
-
-This project is for educational and portfolio purposes only.
-Feel free to read the code, but please do not reuse it for graded coursework submissions.

@@ -1,6 +1,6 @@
-# Student Management System 
+# Student Management System
 
-**Project Duration:** Sep 2024 - Oct 2024
+**Project Duration:** Sep 2024 – Oct 2024  
 **Team Project:** 4 members
 
 ## Project Overview  
@@ -13,60 +13,69 @@ It includes:
 - **Student information management**
 - A **simple GUI front-end** for common operations
 
+---
+
 ## Features
 
 ### User Roles
 
 - **Student**
-  - Register a new student account
-  - Log in with existing credentials
+  - Register a new student account  
+  - Log in with existing credentials  
   - View and update personal profile information  
+
 - **Administrator**
-  - Log in with administrator credentials
-  - View student lists
-  - Edit basic student information
-  - Access student / course management menus
+  - Log in with administrator credentials  
+  - View student lists  
+  - Edit basic student information  
+  - Access student / course management menus  
 
 ### Student & Course Management
 
-- Maintain basic student records (ID, name, etc.)
-- Basic subject / course related structures (via `subject.py`, `student_course_system.py`, `university_system.py`)
-- Simulated data persistence via local data files (e.g. `students.data`)
+- Maintain basic student records (ID, name, etc.)  
+- Basic course-related structures via:  
+  - `subject.py`  
+  - `student_course_system.py`  
+  - `university_system.py`  
+- Data persistence using local files such as `students.data`
 
 ### Menu-Driven Flow
 
-- Central **main menu** to choose:
-  - Student vs Admin
-  - Register vs Login
-  - Management operations
-- Clear navigation between sub-menus (student system, admin system, course system, etc.)
+- Central **main menu** that supports:
+  - Student vs Admin role selection  
+  - Registration vs Login  
+  - Navigation to student/admin management operations  
+- Clear sub-menu design (student system, admin system, course system, etc.)
 
 ### GUI Interface
 
 - A **GUI version** implemented in `GUI.py`
-- Windows / dialogs for:
-  - Role selection (student / admin)
-  - Login and registration
-  - Basic operations on student information
-- GUI events are wired to the same underlying logic used in the menu-driven system
+- Provides windows/dialogs for:
+  - Role selection (Student / Admin)  
+  - Login and registration  
+  - Student information operations  
+- GUI actions are connected to the same underlying logic used in the menu system
+
+---
 
 ## Project Structure
 
 ```text
 StudentManagementSystem_python/
-├── main.py                  # Entry point for the menu / console version
+├── main.py                  # Entry point for the menu/console version
 ├── GUI.py                   # Entry point for the GUI version
 ├── admin_system.py          # Admin workflows & operations
 ├── student_system.py        # Student workflows & operations
-├── student_course_system.py # Student–course related logic
-├── university_system.py     # High-level coordination / system logic
-├── student.py               # Student entity / model
-├── subject.py               # Subject / course entity
-├── data.py                  # Data helpers / sample data
-├── database.py              # Data persistence helpers
+├── student_course_system.py # Student–course logic
+├── university_system.py     # System coordination & integration
+├── student.py               # Student model/class
+├── subject.py               # Subject model/class
+├── data.py                  # Sample data helpers
+├── database.py              # Data persistence & file operations
 ├── students.data            # Local storage file for student records
 ├── __init__.py
-└── __pycache__/             # Python bytecode cache (can be ignored)
+└── __pycache__/             # Python cache (ignored)
+
 ```
 
 ## Getting Started

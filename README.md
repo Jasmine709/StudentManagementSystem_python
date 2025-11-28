@@ -121,15 +121,15 @@ Implemented complete workflows for both user roles:
 ### 3. Data Handling & Persistence
 - Integrated user management with the underlying data layer (data.py, database.py, students.data)
 - Implemented:
--- Loading student data at start-up
--- Saving changes after registration or profile updates
--- Basic validation to avoid invalid records
+  - Loading student data at start-up
+  - Saving changes after registration or profile updates
+  - Basic validation to avoid invalid records
 
 ### 4. GUI Development
 - Implemented the main GUI front-end in GUI.py, including:
--- Windows / screens for Student vs Admin entry
--- Login and registration forms
--- Buttons and event handlers connected to the underlying systems
+  - Windows / screens for Student vs Admin entry
+  - Login and registration forms
+  - Buttons and event handlers connected to the underlying systems
 - Ensured the GUI is consistent with the menu logic, so the system behaves the same in both modes.
 This work provided the core user experience of the system (how users enter, navigate and manage data) and the foundation for other team members to extend features like course/subject management.
 
